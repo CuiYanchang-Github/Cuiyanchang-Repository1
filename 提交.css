@@ -1,0 +1,134 @@
+.all{
+    margin: 0 auto;
+    width: 600px;
+    height: 580px;
+    border-radius: 30px;
+    background: rgba(0, 225, 255, 0.4);  
+    border: 2px solid rgb(193, 233, 226); 
+}
+#top{
+    width: 600px;
+    height: 150px;
+    border-bottom:1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+#bottom{
+    width: 600px;
+    height: 420px;
+    overflow: auto;    
+}
+input{
+    height: 20px;
+    width: 120px;
+    align-items:center;
+    border-radius:3px; 
+    border: 1px solid rgba(85, 86, 87, 0.2);
+}
+.tj{
+    position: absolute;
+    top: 40px;
+    width: 600px;    
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.xm{
+    width: 170px;
+    height: 20px;
+    font-size: 15px;
+    font-weight:bold;
+    float: left;
+    margin-left: 10px;
+}
+.xinxi{
+    margin-top: 10px;
+    width: 600px;
+    height: 25px;
+}
+.a{
+    text-align: center;
+    width: 130px;
+    height: 20px;
+    margin-right:20px; 
+    float: left;
+}
+button{
+    height: 25px;
+    width: 50px;
+    margin-left: 5px;
+    background:rgba(166, 234, 252, 0.8);
+    border: 1px solid white;
+    outline:none;
+}
+.paixu{
+    width: 90px;
+}
+.sousuo{
+    position: absolute;
+    top: 85px;
+    /* padding-left: 40px; */
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    width: 600px;    
+}
+.tishi{
+    position: absolute;
+    top: 130px;
+    width: 600px;
+    height: 20px;
+    
+}
+.tishi1{
+    width: 135px;
+    height: 20px;
+    text-align: center;
+    float: left;
+}
+.tishi2{
+    width: 40px;
+    height: 20px;
+    margin-right: 5px;
+    text-align: center;
+    float: left;
+}
+.tishi3{
+    width: 50px;
+    margin-right: 3px;
+    height: 20px;
+    text-align: center;
+    float: left;
+}
+#quanxuan,
+#quanbuxuan{
+    width: 20px;
+    height: 17px;
+    float: left;
+}
+#gouxuan{
+    width: 15px;
+    height: 15px;
+    margin-top:5px;
+    margin-left: 5px;
+    float: left;
+    background: white;
+    border: 1px solid black;
+}
+.shanchu{
+    height:38px;
+    width: 38px;
+    border-radius:38px; 
+    float: left;
+    margin-top: -10px;
+    /* margin-left: 15px; */
+}
+#input1,
+#input2,
+#input3{
+    height: 20px;
+    width: 120px;
+    align-items:center;
+    margin-left: px;
+}
